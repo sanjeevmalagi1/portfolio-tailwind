@@ -734,10 +734,6 @@ video {
   font-size: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-}
-
 .leading-tight {
   line-height: 1.25;
 }
@@ -977,6 +973,70 @@ video {
   display: block;
 }
 
+.scale-smallest {
+  transform: scale(0.925);
+}
+
+.scale-smaller {
+  transform: scale(0.99);
+}
+
+.scale-larger {
+  transform: scale(1.01);
+}
+
+.scale-largest {
+  transform: scale(1.025);
+}
+
+.animate-slowest {
+  transition: all 0.3s linear;
+}
+
+.animate-slower {
+  transition: all 0.25s linear;
+}
+
+.animate-faster {
+  transition: all 0.2s linear;
+}
+
+.animate-fastest {
+  transition: all 0.15s linear;
+}
+
+.hover\:scale-smallest:hover {
+  transform: scale(0.925);
+}
+
+.hover\:scale-smaller:hover {
+  transform: scale(0.99);
+}
+
+.hover\:scale-larger:hover {
+  transform: scale(1.01);
+}
+
+.hover\:scale-largest:hover {
+  transform: scale(1.025);
+}
+
+.hover\:animate-slowest:hover {
+  transition: all 0.3s linear;
+}
+
+.hover\:animate-slower:hover {
+  transition: all 0.25s linear;
+}
+
+.hover\:animate-faster:hover {
+  transition: all 0.2s linear;
+}
+
+.hover\:animate-fastest:hover {
+  transition: all 0.15s linear;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -1006,6 +1066,70 @@ video {
     .sm\:container {
       max-width: 1280px;
     }
+  }
+
+  .sm\:scale-smallest {
+    transform: scale(0.925);
+  }
+
+  .sm\:scale-smaller {
+    transform: scale(0.99);
+  }
+
+  .sm\:scale-larger {
+    transform: scale(1.01);
+  }
+
+  .sm\:scale-largest {
+    transform: scale(1.025);
+  }
+
+  .sm\:animate-slowest {
+    transition: all 0.3s linear;
+  }
+
+  .sm\:animate-slower {
+    transition: all 0.25s linear;
+  }
+
+  .sm\:animate-faster {
+    transition: all 0.2s linear;
+  }
+
+  .sm\:animate-fastest {
+    transition: all 0.15s linear;
+  }
+
+  .sm\:hover\:scale-smallest:hover {
+    transform: scale(0.925);
+  }
+
+  .sm\:hover\:scale-smaller:hover {
+    transform: scale(0.99);
+  }
+
+  .sm\:hover\:scale-larger:hover {
+    transform: scale(1.01);
+  }
+
+  .sm\:hover\:scale-largest:hover {
+    transform: scale(1.025);
+  }
+
+  .sm\:hover\:animate-slowest:hover {
+    transition: all 0.3s linear;
+  }
+
+  .sm\:hover\:animate-slower:hover {
+    transition: all 0.25s linear;
+  }
+
+  .sm\:hover\:animate-faster:hover {
+    transition: all 0.2s linear;
+  }
+
+  .sm\:hover\:animate-fastest:hover {
+    transition: all 0.15s linear;
   }
 }
 
@@ -1102,12 +1226,80 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .md\:no-underline {
+    text-decoration: none;
+  }
+
   .md\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .md\:scale-smallest {
+    transform: scale(0.925);
+  }
+
+  .md\:scale-smaller {
+    transform: scale(0.99);
+  }
+
+  .md\:scale-larger {
+    transform: scale(1.01);
+  }
+
+  .md\:scale-largest {
+    transform: scale(1.025);
+  }
+
+  .md\:animate-slowest {
+    transition: all 0.3s linear;
+  }
+
+  .md\:animate-slower {
+    transition: all 0.25s linear;
+  }
+
+  .md\:animate-faster {
+    transition: all 0.2s linear;
+  }
+
+  .md\:animate-fastest {
+    transition: all 0.15s linear;
+  }
+
+  .md\:hover\:scale-smallest:hover {
+    transform: scale(0.925);
+  }
+
+  .md\:hover\:scale-smaller:hover {
+    transform: scale(0.99);
+  }
+
+  .md\:hover\:scale-larger:hover {
+    transform: scale(1.01);
+  }
+
+  .md\:hover\:scale-largest:hover {
+    transform: scale(1.025);
+  }
+
+  .md\:hover\:animate-slowest:hover {
+    transition: all 0.3s linear;
+  }
+
+  .md\:hover\:animate-slower:hover {
+    transition: all 0.25s linear;
+  }
+
+  .md\:hover\:animate-faster:hover {
+    transition: all 0.2s linear;
+  }
+
+  .md\:hover\:animate-fastest:hover {
+    transition: all 0.15s linear;
   }
 }
 
@@ -1141,6 +1333,70 @@ video {
       max-width: 1280px;
     }
   }
+
+  .lg\:scale-smallest {
+    transform: scale(0.925);
+  }
+
+  .lg\:scale-smaller {
+    transform: scale(0.99);
+  }
+
+  .lg\:scale-larger {
+    transform: scale(1.01);
+  }
+
+  .lg\:scale-largest {
+    transform: scale(1.025);
+  }
+
+  .lg\:animate-slowest {
+    transition: all 0.3s linear;
+  }
+
+  .lg\:animate-slower {
+    transition: all 0.25s linear;
+  }
+
+  .lg\:animate-faster {
+    transition: all 0.2s linear;
+  }
+
+  .lg\:animate-fastest {
+    transition: all 0.15s linear;
+  }
+
+  .lg\:hover\:scale-smallest:hover {
+    transform: scale(0.925);
+  }
+
+  .lg\:hover\:scale-smaller:hover {
+    transform: scale(0.99);
+  }
+
+  .lg\:hover\:scale-larger:hover {
+    transform: scale(1.01);
+  }
+
+  .lg\:hover\:scale-largest:hover {
+    transform: scale(1.025);
+  }
+
+  .lg\:hover\:animate-slowest:hover {
+    transition: all 0.3s linear;
+  }
+
+  .lg\:hover\:animate-slower:hover {
+    transition: all 0.25s linear;
+  }
+
+  .lg\:hover\:animate-faster:hover {
+    transition: all 0.2s linear;
+  }
+
+  .lg\:hover\:animate-fastest:hover {
+    transition: all 0.15s linear;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1172,5 +1428,69 @@ video {
     .xl\:container {
       max-width: 1280px;
     }
+  }
+
+  .xl\:scale-smallest {
+    transform: scale(0.925);
+  }
+
+  .xl\:scale-smaller {
+    transform: scale(0.99);
+  }
+
+  .xl\:scale-larger {
+    transform: scale(1.01);
+  }
+
+  .xl\:scale-largest {
+    transform: scale(1.025);
+  }
+
+  .xl\:animate-slowest {
+    transition: all 0.3s linear;
+  }
+
+  .xl\:animate-slower {
+    transition: all 0.25s linear;
+  }
+
+  .xl\:animate-faster {
+    transition: all 0.2s linear;
+  }
+
+  .xl\:animate-fastest {
+    transition: all 0.15s linear;
+  }
+
+  .xl\:hover\:scale-smallest:hover {
+    transform: scale(0.925);
+  }
+
+  .xl\:hover\:scale-smaller:hover {
+    transform: scale(0.99);
+  }
+
+  .xl\:hover\:scale-larger:hover {
+    transform: scale(1.01);
+  }
+
+  .xl\:hover\:scale-largest:hover {
+    transform: scale(1.025);
+  }
+
+  .xl\:hover\:animate-slowest:hover {
+    transition: all 0.3s linear;
+  }
+
+  .xl\:hover\:animate-slower:hover {
+    transition: all 0.25s linear;
+  }
+
+  .xl\:hover\:animate-faster:hover {
+    transition: all 0.2s linear;
+  }
+
+  .xl\:hover\:animate-fastest:hover {
+    transition: all 0.15s linear;
   }
 }

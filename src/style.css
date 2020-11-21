@@ -13,3 +13,39 @@
 #menu-open:checked ~ #mobile-menu {
   @apply block;
 }
+
+@variants responsive, hover {
+
+  .scale-smallest {
+    transform: scale(0.925);
+  }
+
+  .scale-smaller {
+    transform: scale(0.99);
+  }
+
+  .scale-larger {
+    transform: scale(1.01);
+  }
+
+  .scale-largest {
+    transform: scale(1.025);
+  }
+
+  .animate-slowest {
+    transition: all 0.3s linear;
+  }
+
+  .animate-slower {
+    transition: all 0.25s linear;
+  }
+
+  .animate-faster {
+    transition: all 0.2s linear;
+  }
+
+  .animate-fastest {
+    transition: all 0.15s linear;
+  }
+
+}
