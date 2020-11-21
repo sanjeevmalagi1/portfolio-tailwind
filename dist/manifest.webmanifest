@@ -1,0 +1,8 @@
+{
+  "name": "Sanjeev Malagi's Portfolio",
+  "short_name": "Sanjeev Malagi",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a202c",
+  "description": "The portfolio website of Sanjeev Malagi, Software Developer based in Bangalore."
+}
