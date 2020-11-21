@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-tailwind",
+  "version": "1.0.0",
+  "description": "This is my portfolio website implemented in tailwind-css",
+  "license": "MIT",
+  "engines": {
+    "node": "12.16.3"
+  },
+  "scripts": {
+    "dev:css": "tailwind build src/style.css -o dist/style.css",
+    "build:css": "NODE_ENV=production tailwind build src/style.css -o dist/style.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="The portfolio website of Sanjeev Malagi, Software Developer based in Bangalore.">
+  <meta name="description" content="The portfolio website of Sanjeev Malagi, Software Developer based in Bangalore.">
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="Website Developer, Software and Applications, Bangalore">
+  <title>Sanjeev Malagi - Software Developer </title>
+</head>
+<body class="bg-gray-100 text-white">
+  <nav class="bg-black fixed w-full hidden md:block">
+    <div class="container md:flex justify-between">
+      <a href='#' class="px-4 md:px-0 block py-5 text-xl font-bold uppercase">Sanjeev Malagi</a>
+      <div class="md:flex items-center">
+        <a href="#home" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Home</a>
+        <a href="#works" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Works</a>
+        <a href="#contact" class="px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+  <nav class="bg-black w-full block md:hidden">
+    <input id="menu-open" type="checkbox" class="hidden" />
+    <div class="flex items-center justify-between">
+      <a href='#' class="px-4 md:px-0 block py-5 text-xl font-bold uppercase">Dev Name</a>
+      <label for="menu-open" class="block px-4 md:px-0 block py-5" value="menu" name="menu">
+        <img src="./menu-close.svg" class="border p-2 w-auto h-full" alt="">
+      </label>
+    </div>
+    <div id="mobile-menu" class="hidden">
+      <a href="#home" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Home</a>
+      <a href="#works" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Works</a>
+      <a href="#contact" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact Me</a>
+    </div>
+  </nav>
+  <section id="home" class="bg-gray-900" style="background-image: url('https://uploads-ssl.webflow.com/5f718e7b0d482ef36d2c8417/5f7198ce352e4ba0286eac80_background.jpg')">
+    <div class="min-h-screen px-4 md:px-0 container py-10 flex flex-col md:flex-row md:py-0 items-center">
+      <div class="flex-1">
+        <h1 class="md:my-5 text-5xl md:text-6xl font-semibold leading-tight">THE JAVASCRIPT EXPERT</h1>
+        <p class="my-5 text-2xl md:text-3xl leading-tight">Building exceptionally great websites and apps</p>
+        <div class="my-5 grid grid-cols-2 gap-4">
+          <a href="#works" class="text-center py-3 border border-primary-color underline"> See&nbsp;My&nbsp;Work </a>
+          <a href="#contact" class="text-center py-3 bg-primary-color hover:bg-primary-color-hover"> Contact&nbsp;Me </a>
+        </div>
+      </div>
+      <div class="flex-1 md:ml-4">
+        <img class="object-contain" src="dev1.svg" />
+      </div>
+    </div>
+  </section>
+  <section id="works" class="">
+    <div class="container px-4 md:px-0 py-20 text-black">
+      <div class="md:grid grid-cols-4 items-center">
+        <div class="col-span-1"> My Works ------- </div>
+        <div class="col-span-3">
+          <h2 class="text-5xl md:text-6xl font-semibold leading-tight"> WORKS AND CASE STUDIES </h2>
+        </div>
+      </div>
+      <div class="md:grid grid-cols-4 gap-4">
+        <div class="col-start-2 col-span-3">
+          <div class="py-5 md:grid grid-cols-3 gap-4">
+            <a href="https://github.com/sanjeevmalagi1/read-a-word" class="min-h-full block shadow my-5 md:my-auto cursor-pointer">
+              <img src="./work-1.png" class="h-auto m-auto">
+              <div class="p-5">
+                <h2 class="text-xl font-semibold" > Reading one word at a time </h2>
+                <p class="font-light mt-2"> Increase the reading speed by reading only one word at a time. </p>
+                <!-- <div class="mt-10 flex items-center">
+                  See Github Repo 
+                  <img class="arrow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZjZTI1YyIgd2lkdGg9IjMwcHgiIGhlaWdodD0iMzBweCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA0bC0xLjQxIDEuNDFMMTYuMTcgMTFINHYyaDEyLjE3bC01LjU4IDUuNTlMMTIgMjBsOC04eiIvPjwvc3ZnPg=="/>
+                </div> -->
+              </div>
+            </a>
+            <a href="https://github.com/sanjeevmalagi1/read-a-word" class="min-h-full block shadow my-5 md:my-auto cursor-pointer">
+              <img src="./github.jpg" class="w-full h-auto">
+              <div class="p-5">
+                <h2 class="text-xl font-semibold" > React Native Permanent Storage </h2>
+                <p class="font-light mt-2"> Increase the reading speed by reading only one word at a time. </p>
+                <!-- <div class="mt-10 flex items-center">
+                  See Github Repo 
+                  <img class="arrow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZjZTI1YyIgd2lkdGg9IjMwcHgiIGhlaWdodD0iMzBweCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA0bC0xLjQxIDEuNDFMMTYuMTcgMTFINHYyaDEyLjE3bC01LjU4IDUuNTlMMTIgMjBsOC04eiIvPjwvc3ZnPg=="/>
+                </div> -->
+              </div>
+            </a>
+            <a href="https://github.com/sanjeevmalagi1/read-a-word" class="min-h-full block shadow my-5 md:my-auto cursor-pointer">
+              <img src="./work-3.png" class="w-full h-auto">
+              <div class="p-5">
+                <h2 class="text-xl font-semibold" > Building websites without CSS </h2>
+                <p class="font-light mt-2"> I built my portfolio with tailwind. </p>
+                <!-- <div class="mt-10 flex items-center">
+                  See Github Repo 
+                  <img class="arrow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZjZTI1YyIgd2lkdGg9IjMwcHgiIGhlaWdodD0iMzBweCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xMiA0bC0xLjQxIDEuNDFMMTYuMTcgMTFINHYyaDEyLjE3bC01LjU4IDUuNTlMMTIgMjBsOC04eiIvPjwvc3ZnPg=="/>
+                </div> -->
+              </div>
+            </a>
+          </div>
+          <p class="text-xl leading-tight">
+            See more open source activity
+            <a class="underline" href="">Visit my github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container px-4 md:px-0 py-20 text-black">
+      <div class="md:grid grid-cols-4 items-center">
+        <div class="col-span-1"> What I Use ------- </div>
+        <div class="col-span-3">
+          <h2 class="text-5xl md:text-6xl font-semibold leading-tight uppercase"> Technologies </h2>
+        </div>
+      </div>
+      <div class="md:grid grid-cols-4 gap-4">
+        <div class="col-start-2 col-span-3">
+          <div class="py-5 grid grid-cols-5 md:grid-cols-10 gap-4 items-center">
+            <img src="./javascript.svg" class="w-full h-auto" alt="">
+            <img src="./react.svg" class="w-full h-auto" alt="">
+            <img src="./webpack.svg" class="w-full h-auto" alt="">
+            <img src="./html.svg" class="w-full h-auto" alt="">
+            <img src="./css.svg" class="w-full h-auto" alt="">
+            <img src="./sass.svg" class="w-full h-auto" alt="">
+            <img src="./rails.svg" class="w-full h-auto" alt="">
+            <img src="./firebase.svg" class="w-full h-auto" alt="">
+            <img src="./git.svg" class="w-full h-auto" alt="">
+            <img src="./gitlab.svg" class="w-full h-auto" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="bg-primary-color">
+    <div class="container px-4 md:px-0 py-20">
+      <div class="md:grid grid-cols-4 gap-6">
+        <div class="col-span-1 text-2xl">
+          <h2 class="text-4xl font-semibold leading-tight"> CONTACT ME</h2>
+          <div class="leading-tight my-5 font-light">
+            <p>Have a project in mind or have a cool idea or just want to grab some coffee?</p>
+            <br/>
+            <p>Feel free to leave a message!</p>
+          </div>
+        </div>
+        <div class="col-span-3">
+          <form class="grid grid-cols-2 gap-4" action="">
+            <div class="col-span-2 md:col-span-1">
+              <label class="block text-xl" for="first-name">First Name</label>
+              <input id="first-name" class="text-black shadow-inner w-full p-3" type="text" />
+            </div>
+            <div class="col-span-2 md:col-span-1">
+              <label class="block text-xl" for="last-name">Last Name</label>
+              <input id="last-name" class="text-black shadow-inner w-full p-3" type="text" />
+            </div>
+            <div class="col-span-2">
+              <label class="block text-xl" for="email">Email</label>
+              <input id="email" class="text-black shadow-inner w-full p-3" type="email" />
+            </div>
+            <div class="col-span-2">
+              <label class="block text-xl" for="message">Message</label>
+              <textarea id="message" class="text-black shadow-inner	w-full p-3" rows="10" type="text"></textarea>
+            </div>
+            <div class="col-span-2 md:col-span-1">
+              <input class="w-full py-3 text-primary-color" type="submit" value="SUBMIT" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-black">
+    <div class="container px-4 md:px-0 py-10">
+      @Copyright 2020. All rights Reserved!
+    </div>
+  </footer>
+</body>
+</html>
