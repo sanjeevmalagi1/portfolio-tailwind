@@ -100,7 +100,7 @@
           </div>
           <p class="text-xl leading-tight">
             To explore more open source activity
-            <a class="underline" href="https://github.com/sanjeevmalagi1/" target="_blank" rel=”noopener”>Visit Github Profile</a>
+            <a class="underline" href="https://github.com/sanjeevmalagi1/" target="_blank" rel=”noopener”>Visit Github</a>
           </p>
         </div>
       </div>
@@ -144,22 +144,31 @@
           </div>
         </div>
         <div class="col-span-3">
-          <form class="grid grid-cols-2 gap-4" action="">
+          <form class="grid grid-cols-2 gap-4" action="https://usebasin.com/f/b6a693941d93/" method="POST">
             <div class="col-span-2 md:col-span-1">
-              <label class="block text-xl" for="first-name">First Name</label>
-              <input id="first-name" class="text-black shadow-inner w-full p-3" type="text" />
+              <label class="block text-xl" for="first-name">First Name *</label>
+              <input name="firstname" required id="first-name" class="text-black shadow-inner w-full p-3" type="text" />
             </div>
             <div class="col-span-2 md:col-span-1">
               <label class="block text-xl" for="last-name">Last Name</label>
-              <input id="last-name" class="text-black shadow-inner w-full p-3" type="text" />
+              <input name="lastname" id="last-name" class="text-black shadow-inner w-full p-3" type="text" />
             </div>
             <div class="col-span-2">
-              <label class="block text-xl" for="email">Email</label>
-              <input id="email" class="text-black shadow-inner w-full p-3" type="email" />
+              <label class="block text-xl" for="email">Email *</label>
+              <input name="email" required id="email" class="text-black shadow-inner w-full p-3" type="email" />
+            </div>
+            <div class="col-span-2">
+              <label class="block text-xl" for="type">Type</label>
+              <select name="type" id="type" class="text-black shadow-inner w-full p-3">
+                <option value="hello"> Saying Hello </option>
+                <option value="development"> Hire for Development / Job </option>
+                <option value="consulting"> Consulting </option>
+                <option value="mentorship"> Mentorship </option>
+              </select>
             </div>
             <div class="col-span-2">
               <label class="block text-xl" for="message">Message</label>
-              <textarea id="message" class="text-black shadow-inner	w-full p-3" rows="10" type="text"></textarea>
+              <textarea name="message" id="message" class="text-black shadow-inner	w-full p-3" rows="10" type="text"></textarea>
             </div>
             <div class="col-span-2 md:col-span-1">
               <input class="w-full py-3 text-primary-color" type="submit" value="SUBMIT" />
