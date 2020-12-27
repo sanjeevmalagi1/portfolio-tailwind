@@ -22064,7 +22064,7 @@ video {
   display: block;
 }
 
-.pro-menu:checked ~ .work {
+.accordion:checked ~ .accordion-content {
   display: block;
 }
 

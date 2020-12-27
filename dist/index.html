@@ -92,8 +92,8 @@
                 <img src="./down.svg" class="w-full h-auto" alt="Close">
               </div>
             </div>
-            <input id="pro-menu-1" checked type="radio" name="work" class="pro-menu hidden" />
-            <div class="work pt-5 hidden">
+            <input id="pro-menu-1" checked type="radio" name="work" class="accordion hidden" />
+            <div class="accordion-content pt-5 hidden">
               <div class="md:ml-10">
                 <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
                   <li>
@@ -145,8 +145,8 @@
                 <img src="./down.svg" class="h-auto" alt="Close" style="width:18px; height:18px;">
               </div>
             </div>
-            <input id="pro-menu-2" type="radio" name="work" class="pro-menu hidden" />
-            <div class="work pt-5 hidden">
+            <input id="pro-menu-2" type="radio" name="work" class="accordion hidden" />
+            <div class="accordion-content pt-5 hidden">
               <div class="md:ml-10">
                 <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
                   <li>
@@ -192,8 +192,8 @@
                 <img src="./down.svg" class="h-auto" alt="Close" style="width:18px; height:18px;">
               </div>
             </div>
-            <input id="pro-menu-3" type="radio" name="work" class="pro-menu hidden" />
-            <div class="work pt-5 hidden">
+            <input id="pro-menu-3" type="radio" name="work" class="accordion hidden" />
+            <div class="accordion-content pt-5 hidden">
               <div class="md:ml-10">
                 <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
                   <li>
@@ -300,6 +300,88 @@
       </div>
     </div>
   </section>
+  <section class="FQA">
+    <div class="container px-4 md:px-0 py-20 text-black">
+      <div class="md:grid grid-cols-4 items-center md:pb-10">
+        <div class="col-span-1"> FAQs ------- </div>
+        <div class="col-span-3">
+          <h2 class="text-4xl md:text-6xl font-semibold leading-tight uppercase"> Frequently asked questions </h2>
+        </div>
+      </div>
+      <div class="md:grid grid-cols-4 gap-4">
+        <div class="col-start-2 col-span-3">
+          <div class="bg-white shadow my-5">
+            
+            <label for="faq-1" class="block border-b-2 cursor-pointer">
+              <div class="flex justify-between items-center p-5">
+                <h3 class="text-lg font-medium"> Do you work remotely ? </h3>
+                <div class="flex-none">
+                  <img src="./updown.svg" class="w-full h-auto" alt="Close">
+                </div>
+              </div>
+              <input id="faq-1" checked type="radio" name="faq" class="accordion hidden" />
+              <div class="accordion-content font-light p-5 pt-0 hidden">
+                Yes, I prefer working remotely. It provides great flexibility.
+              </div>
+            </label>
+
+            <label for="faq-2" class="block border-b-2 cursor-pointer">
+              <div class="flex justify-between items-center p-5">
+                <h3 class="text-lg font-medium"> Are you actively looking for a job / contract ? </h3>
+                <div class="flex-none">
+                  <img src="./updown.svg" class="w-full h-auto" alt="Close">
+                </div>
+              </div>
+              <input id="faq-2" type="radio" name="faq" class="accordion hidden" />
+              <div class="accordion-content font-light p-5 pt-0 hidden">
+                I am open for any new opportunities. Please leave a message If you need to contact me.
+              </div>
+            </label>
+
+            <label for="faq-3" class="block border-b-2 cursor-pointer">
+              <div class="flex justify-between items-center p-5">
+                <h3 class="text-lg font-medium"> Are you willing to relocate outside of India? </h3>
+                <div class="flex-none">
+                  <img src="./updown.svg" class="w-full h-auto" alt="Close">
+                </div>
+              </div>
+              <input id="faq-3" type="radio" name="faq" class="accordion hidden" />
+              <div class="accordion-content font-light p-5 pt-0 hidden">
+                Yes, I am willing to relocate outside of India. But I prefer working remotely.
+              </div>
+            </label>
+
+            <label for="faq-4" class="block border-b-2 cursor-pointer">
+              <div class="flex justify-between items-center p-5">
+                <h3 class="text-lg font-medium"> Are you willing to relocate in India? </h3>
+                <div class="flex-none">
+                  <img src="./updown.svg" class="w-full h-auto" alt="Close">
+                </div>
+              </div>
+              <input id="faq-4" type="radio" name="faq" class="accordion hidden" />
+              <div class="accordion-content font-light p-5 pt-0 hidden">
+                I am based out of Bangalore. Instead of relocating I would prefer to work remotely.
+              </div>
+            </label>
+
+            <label for="faq-5" class="block border-b-2 cursor-pointer">
+              <div class="flex justify-between items-center p-5">
+                <h3 class="text-lg font-medium"> Do you need VISA sponsorship ? </h3>
+                <div class="flex-none">
+                  <img src="./updown.svg" class="w-full h-auto" alt="Close">
+                </div>
+              </div>
+              <input id="faq-5" type="radio" name="faq" class="accordion hidden" />
+              <div class="accordion-content font-light p-5 pt-0 hidden">
+                Yes, I may require VISA sponsorship if I need to work/relocate outside of India.
+              </div>
+            </label>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="contact" class="bg-primary-color">
     <div class="container px-4 md:px-0 py-20">
       <div class="md:grid grid-cols-4 items-center md:pb-10">
@@ -312,7 +394,7 @@
         <div class="col-span-1 text-2xl">
           
         </div>
-        <div class="col-span-3">
+        <div class="col-span-3 my-5">
           <form class="grid grid-cols-2 gap-4" action="https://usebasin.com/f/b6a693941d93/" method="POST">
             <div class="col-span-2 md:col-span-1 mb-2">
               <label class="block text-xl" for="first-name">First Name *</label>

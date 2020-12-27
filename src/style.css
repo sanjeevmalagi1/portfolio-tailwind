@@ -14,7 +14,7 @@
   @apply block;
 }
 
-.pro-menu:checked ~ .work {
+.accordion:checked ~ .accordion-content {
   @apply block;
 }
 
