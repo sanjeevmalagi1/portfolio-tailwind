@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="The portfolio website of Sanjeev Malagi, Software Developer based in Bangalore.">
+  <meta name="description" content="The portfolio website of Sanjeev Malagi, Software Developer based out of Bangalore.">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="keywords" content="Website Developer, Software and Applications, Bangalore">
@@ -25,8 +25,9 @@
       <a href='#' class="px-4 md:px-0 block py-5 text-xl font-bold uppercase">Sanjeev Malagi</a>
       <div class="md:flex items-center">
         <a href="#home" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Home</a>
+        <a href="#professional" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Professional</a>
         <a href="#works" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Works</a>
-        <a href="#contact" class="px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact Me</a>
+        <a href="#contact" class="px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact</a>
       </div>
     </div>
   </nav>
@@ -40,8 +41,9 @@
     </div>
     <div id="mobile-menu" class="hidden">
       <a href="#home" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Home</a>
+      <a href="#professional" class="px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Professional</a>
       <a href="#works" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 hover:bg-gray-800">Works</a>
-      <a href="#contact" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact Me</a>
+      <a href="#contact" class="w-full block px-4 md:px-0 py-3 md:py-5 md:px-4 bg-primary-color hover:bg-primary-color-hover">Contact</a>
     </div>
   </nav>
   <section id="home" class="bg-gray-900" style="background-image: url('./code-background.jpg')">
@@ -59,9 +61,166 @@
       </div>
     </div>
   </section>
-  <section id="works" class="">
+  <section id="professional">
     <div class="container px-4 md:px-0 py-20 text-black">
-      <div class="md:grid grid-cols-4 items-center">
+      <div class="md:grid grid-cols-4 items-center md:pb-10">
+        <div class="col-span-1"> Where I work ------- </div>
+        <div class="col-span-3">
+          <h2 class="text-4xl md:text-6xl font-semibold leading-tight uppercase"> Professional experience </h2>
+        </div>
+      </div>
+      <div class="md:grid grid-cols-4 gap-4">
+        <div class="col-start-2 col-span-3">
+
+          <label for="pro-menu-1" class="block p-5 my-5 shadow cursor-pointer bg-white">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <img src="./sb.png" class="w-12" alt="GitLab">
+                <div class="ml-5">
+                  <h2 class="text-2xl font-semibold" >
+                    Product Engineer
+                    <span class="text-gray-500 ml-1 block text-base font-light hidden md:inline"> 2018 - Present </span>
+                  </h2>
+                  <h3 class="text-xl font-light">
+                    Scripbox Ltd.
+                    <span class="text-gray-500 md:ml-1 block text-base font-light md:inline"> Bangalore, India </span>
+                  </h3>
+                  <span class="text-gray-500 text-base font-light block md:hidden"> 2018 - Present </span>
+                </div>
+              </div>
+              <div>
+                <img src="./down.svg" class="w-full h-auto" alt="Close">
+              </div>
+            </div>
+            <input id="pro-menu-1" checked type="radio" name="work" class="pro-menu hidden" />
+            <div class="work pt-5 hidden">
+              <div class="md:ml-10">
+                <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
+                  <li>
+                    Revamped the Scripbox app dashboard with updated navigation.
+                  </li>
+                  <li>
+                    Added support for the NRI customers on Investment Platform.
+                  </li>
+                  <li>
+                    Built SIP Calculator, KYC-PAN checker, Tax Calculator 2019 and NPS system.
+                  </li>
+                  <li>
+                    Implemented the Scripbox Demo Dashboard.
+                  </li>
+                  <li>
+                    Implemented payment UPI intent based flow with Razorpay and integrated UPI checkout with TPSL.
+                  </li>
+                  <li>
+                    Optimised the signup and KYC flow which increased the conversion rate from 10% to 30%.
+                  </li>
+                  <li>
+                    Integrated amplitude and webengage analytics services with investment platform.
+                  </li>
+                  <li>
+                    Implemented Referral Program which allows users to refer their friend.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </label>
+
+          <label for="pro-menu-2" class="block p-5 my-5 shadow cursor-pointer bg-white">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <img src="./zp.png" class="w-12" alt="GitLab">
+                <div class="ml-5">
+                  <h2 class="text-2xl font-semibold" >
+                    Full Stack Developer
+                    <span class="text-gray-500 ml-1 block text-base font-light hidden md:inline"> 2017 - 2018 </span>
+                  </h2>
+                  <h3 class="text-xl font-light">
+                    Appidom Technologies (Zoyo Parking) Ltd.
+                    <span class="text-gray-500 md:ml-1 block text-base font-light md:inline"> Bangalore, India </span>
+                  </h3>
+                  <span class="text-gray-500 text-base font-light block md:hidden"> 2017 - 2018 </span>
+                </div>
+              </div>
+              <div>
+                <img src="./down.svg" class="w-full h-auto" alt="Close">
+              </div>
+            </div>
+            <input id="pro-menu-2" type="radio" name="work" class="pro-menu hidden" />
+            <div class="work pt-5 hidden">
+              <div class="md:ml-10">
+                <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
+                  <li>
+                    Designed and Implemented user-facing Zoyo Parking App
+                  </li>
+                  <li>
+                    Developed internal employee dashboard to improve customer experience
+                  </li>
+                  <li>
+                    Designed and deployed Zoyo's core backend systems
+                  </li>
+                  <li>
+                    Implemented the Scripbox Demo Dashboard.(link)
+                  </li>
+                  <li>
+                    Developed offline-first Firebase layer which reduced connectivity problems
+                  </li>
+                  <li>
+                    Developed customer facing dashboard for effective management of parking lots
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </label>
+
+          <label for="pro-menu-3" class="block p-5 my-5 shadow cursor-pointer bg-white">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <img src="./work.svg" class="w-12" alt="Freelancing">
+                <div class="ml-5">
+                  <h2 class="text-2xl font-semibold" >
+                    Web Developer
+                    <span class="text-gray-500 ml-1 text-base font-light hidden md:inline"> 2016 - 2017 </span>
+                  </h2>
+                  <h3 class="text-xl font-light">
+                    Freelancing
+                    <span class="text-gray-500 md:ml-1 block text-base font-light md:inline"> Bangalore, India </span>
+                  </h3>
+                  <span class="text-gray-500 text-base font-light block md:hidden"> 2016 - 2017 </span>
+                </div>
+              </div>
+              <div>
+                <img src="./down.svg" class="w-full h-auto" alt="Close">
+              </div>
+            </div>
+            <input id="pro-menu-3" type="radio" name="work" class="pro-menu hidden" />
+            <div class="work pt-5 hidden">
+              <div class="md:ml-10">
+                <ul class="md:ml-12 ml-5 list-disc list-outside font-light">
+                  <li>
+                    23books.com: Student startup selling used books for college students
+                  </li>
+                  <li>
+                    shreescollege.com: Official website for Shree's BCOM college, Karnataka
+                  </li>
+                  <li>
+                    More details available at <a href="https://angel.co/u/sanjeev-malagi" class="underline" target="_blank" rel=”noopener”>Angle co</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </label>
+
+          <p class="text-xl leading-tight mt-10">
+            To explore more
+            <a class="underline" href="https://github.com/sanjeevmalagi1/" target="_blank" rel=”noopener”>View My Resume</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="works" class="bg-secondary-color">
+    <div class="container px-4 md:px-0 py-20 text-black">
+      <div class="md:grid grid-cols-4 items-center md:pb-10">
         <div class="col-span-1"> My Works ------- </div>
         <div class="col-span-3">
           <h2 class="text-4xl md:text-6xl font-semibold leading-tight"> WORKS AND CASE STUDIES </h2>
@@ -70,7 +229,7 @@
       <div class="md:grid grid-cols-4 gap-4">
         <div class="col-start-2 col-span-3">
           <div class="py-5 md:grid grid-cols-3 gap-4">
-            <a href="https://github.com/sanjeevmalagi1/read-a-word" target="_blank" rel=”noopener” class="animate-fastest md:hover:scale-largest min-h-full block shadow my-5 md:my-auto cursor-pointer">
+            <a href="https://github.com/sanjeevmalagi1/read-a-word" target="_blank" rel=”noopener” class="shadow-lg animate-fastest md:hover:scale-largest min-h-full block my-5 md:my-auto cursor-pointer bg-gray-100">
               <div class="m-auto image-background" style="background-image: url('./work-1.jpg'); height: 200px;"></div>
               <div class="p-5">
                 <h2 class="underline md:no-underline text-xl font-semibold" > Read-A-Word </h2>
@@ -83,7 +242,7 @@
                 </div> -->
               </div>
             </a>
-            <a href="https://github.com/sanjeevmalagi1/react-native-permanent-storage" target="_blank" rel=”noopener” class="animate-fastest md:hover:scale-largest min-h-full block shadow my-5 md:my-auto cursor-pointer">
+            <a href="https://github.com/sanjeevmalagi1/react-native-permanent-storage" target="_blank" rel=”noopener” class="shadow-lg animate-fastest md:hover:scale-largest min-h-full block my-5 md:my-auto cursor-pointer bg-gray-100">
               <!-- <img src="./github.jpg" class="w-full h-auto" alt="Placeholder image for react-native-permanent-storage" /> -->
               <div class="m-auto image-background" style="background-image: url('./github.jpg'); height: 200px;"></div>
               <div class="p-5">
@@ -95,7 +254,7 @@
                 </div> -->
               </div>
             </a>
-            <a href="https://github.com/sanjeevmalagi1/portfolio-tailwind" target="_blank" rel=”noopener” class="animate-fastest md:hover:scale-largest min-h-full block shadow my-5 md:my-auto cursor-pointer">
+            <a href="https://github.com/sanjeevmalagi1/portfolio-tailwind" target="_blank" rel=”noopener” class="shadow-lg animate-fastest md:hover:scale-largest min-h-full block my-5 md:my-auto cursor-pointer bg-gray-100">
               <div class="m-auto image-background" style="background-image: url('./work-3.jpg'); height: 200px;"></div>
               <div class="p-5">
                 <h2 class="underline md:no-underline text-xl font-semibold" > The 'sanjeevmalagi.com' website</h2>
@@ -107,7 +266,7 @@
               </div>
             </a>
           </div>
-          <p class="text-xl leading-tight">
+          <p class="text-xl leading-tight mt-5">
             To explore more open source activity
             <a class="underline" href="https://github.com/sanjeevmalagi1/" target="_blank" rel=”noopener”>Visit Github</a>
           </p>
@@ -117,7 +276,7 @@
   </section>
   <section class="">
     <div class="container px-4 md:px-0 py-20 text-black">
-      <div class="md:grid grid-cols-4 items-center">
+      <div class="md:grid grid-cols-4 items-center md:pb-10">
         <div class="col-span-1"> What I Use ------- </div>
         <div class="col-span-3">
           <h2 class="text-4xl md:text-6xl font-semibold leading-tight uppercase"> Technologies </h2>
@@ -143,30 +302,31 @@
   </section>
   <section id="contact" class="bg-primary-color">
     <div class="container px-4 md:px-0 py-20">
+      <div class="md:grid grid-cols-4 items-center md:pb-10">
+        <div class="col-span-1"> Contact ------- </div>
+        <div class="col-span-3">
+          <h2 class="text-4xl md:text-6xl font-semibold leading-tight"> CONTACT ME </h2>
+        </div>
+      </div>
       <div class="md:grid grid-cols-4 gap-6">
         <div class="col-span-1 text-2xl">
-          <h2 class="text-4xl font-semibold leading-tight"> CONTACT ME</h2>
-          <div class="leading-tight my-5 font-light">
-            <p>Have a project in mind or have a cool idea or just want to grab some coffee?</p>
-            <br/>
-            <p>Feel free to leave a message!</p>
-          </div>
+          
         </div>
         <div class="col-span-3">
           <form class="grid grid-cols-2 gap-4" action="https://usebasin.com/f/b6a693941d93/" method="POST">
-            <div class="col-span-2 md:col-span-1">
+            <div class="col-span-2 md:col-span-1 mb-2">
               <label class="block text-xl" for="first-name">First Name *</label>
               <input name="firstname" required id="first-name" class="text-black shadow-inner w-full p-3" type="text" />
             </div>
-            <div class="col-span-2 md:col-span-1">
+            <div class="col-span-2 md:col-span-1 mb-2">
               <label class="block text-xl" for="last-name">Last Name</label>
               <input name="lastname" id="last-name" class="text-black shadow-inner w-full p-3" type="text" />
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 mb-2">
               <label class="block text-xl" for="email">Email *</label>
               <input name="email" required id="email" class="text-black shadow-inner w-full p-3" type="email" />
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 mb-2">
               <label class="block text-xl" for="type">Type</label>
               <select name="type" id="type" class="text-black shadow-inner w-full p-3">
                 <option value="hello"> Saying Hello </option>
@@ -175,11 +335,11 @@
                 <option value="mentorship"> Mentorship </option>
               </select>
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 mb-2">
               <label class="block text-xl" for="message">Message</label>
               <textarea name="message" id="message" class="text-black shadow-inner	w-full p-3" rows="10" type="text"></textarea>
             </div>
-            <div class="col-span-2 md:col-span-1">
+            <div class="col-span-2 md:col-span-1 mb-2">
               <input class="w-full py-3 text-primary-color" type="submit" value="SUBMIT" />
             </div>
           </form>

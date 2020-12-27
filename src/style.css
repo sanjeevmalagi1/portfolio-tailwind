@@ -14,6 +14,10 @@
   @apply block;
 }
 
+.pro-menu:checked ~ .work {
+  @apply block;
+}
+
 @variants responsive {
   .image-background {
     background-position: center;
