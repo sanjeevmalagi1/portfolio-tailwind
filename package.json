@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
-    "build:css": "NODE_ENV=production tailwind build src/style.css -o dist/style.css"
+    "build:css": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --minify"
   },
   "dependencies": {},
   "devDependencies": {
