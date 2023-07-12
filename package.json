@@ -4,7 +4,7 @@
   "description": "This is my portfolio website implemented in tailwind-css",
   "license": "MIT",
   "engines": {
-    "node": "12.16.3"
+    "node": "14.18.0"
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
