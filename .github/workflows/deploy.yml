@@ -15,7 +15,7 @@ jobs:
           node-version: 14.18.0
       - run: npm install
       - run: npm run-script build:css
-      - uses: w9jds/firebase-action@master
+      - uses: docker://w9jds/firebase-action:master
         with:
           args: deploy --only hosting
         env:
