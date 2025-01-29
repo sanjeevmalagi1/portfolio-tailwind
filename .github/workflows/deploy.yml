@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: 14.18.0
+          node-version: 20.0.0
       - run: npm install
-      - run: npm run-script build:css
+      - run: npm run-script build
       - uses: docker://w9jds/firebase-action:master
         with:
           args: deploy --only hosting
